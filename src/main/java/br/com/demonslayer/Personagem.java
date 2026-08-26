@@ -2,13 +2,21 @@ package br.com.demonslayer;
 
 public class Personagem {
 
-    public String nome;
+    private String nome;
 
     public Personagem() {
 
     }
 
     public Personagem(String nome) {
+        this.nome = nome;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
         this.nome = nome;
     }
 
