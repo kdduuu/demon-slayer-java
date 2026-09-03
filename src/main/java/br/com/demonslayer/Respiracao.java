@@ -5,6 +5,15 @@ public class Respiracao {
     private String nome;
     private String origem;
 
+    public Respiracao() {
+
+    }
+
+    public Respiracao(String nome, String origem) {
+        this.nome = nome;
+        this.origem = origem;
+    }
+
     public String getNome() {
         return nome;
     }
