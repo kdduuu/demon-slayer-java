@@ -2,7 +2,7 @@ package br.com.demonslayer;
 
 public class Oni extends Personagem {
 
-    public Kekkijutsu kekkijutsu;
+    private Kekkijutsu kekkijutsu;
 
     public Oni() {
         super();
@@ -10,5 +10,13 @@ public class Oni extends Personagem {
 
     public Oni(String nome) {
         super(nome);
+    }
+
+    public Kekkijutsu getKekkijutsu() {
+        return kekkijutsu;
+    }
+
+    public void setKekkijutsu(Kekkijutsu kekkijutsu) {
+        this.kekkijutsu = kekkijutsu;
     }
 }
